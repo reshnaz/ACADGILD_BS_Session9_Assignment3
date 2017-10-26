@@ -1,0 +1,36 @@
+
+/*Applying suitable background gradient to page*/
+body{
+	background: linear-gradient(to bottom right,#D3D2D5,#EFEEEF);
+	height: 100%;
+	margin: 0;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+}
+
+/*Makes sure that the left nav toches the screen border without gap*/
+.container{
+	margin-left: 0;
+	padding-left: 0;
+}
+
+/*Positioning the left side navigation and formatting its content*/
+#mainNav{
+	width: 30vh;
+	float: left;
+	height: 100vh;
+	position: fixed;
+	font-size: 150%;
+}
+
+/*Positioning the toggle button*/
+.navbar-toggle{
+	position: absolute;
+	margin-left: 40%;
+}
+
+/*Positioning content of left navigation*/
+.navbar-collapse>ul{
+	position: absolute;
+	margin-top: 35%;
+}
